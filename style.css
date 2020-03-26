@@ -1,4 +1,6 @@
-
+body {
+    background-color: #7c7676;
+}
 
 .wireframe-block {
     background: #ebebeb;
@@ -14,3 +16,35 @@
 .nav {
 
  }
+
+ .three {
+    background: #7c7676;
+    min-height: 100px;
+    width: 100%;
+    margin: 10px;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .section-block {
+    background: #ebebeb;
+    min-height: 200px;
+    width: 50%;
+    margin: 10px;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aside-block {
+    background: #ebebeb;
+    min-height: 200px;
+    width: 50%;
+    margin: 10px;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+
+}
