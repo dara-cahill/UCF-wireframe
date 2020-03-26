@@ -26,23 +26,45 @@ body {
     align-items: center;
     justify-content: center;
  }
- 
+
  .section-block {
     background: #ebebeb;
-    min-height: 200px;
-    width: 50%;
+    min-height: 300px;
+    width: 60%;
     margin: 10px;
+    margin-left: 0%;
     display:flex; 
     align-items: center;
     justify-content: center;
 
 }
 
+.article-block {
+    background: #7c7676;
+    min-height: 220px;
+    width: 100%;
+    margin: 10px;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.tag-block {
+    background: #ebebeb;
+    min-height: 30px;
+    width: 100%;
+    margin: 10px;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+}
+
 .aside-block {
     background: #ebebeb;
-    min-height: 200px;
-    width: 50%;
+    min-height: 300px;
+    width: 40%;
     margin: 10px;
+    margin-right: 0%;
     display:flex; 
     align-items: center;
     justify-content: center;
