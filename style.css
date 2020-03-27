@@ -1,6 +1,11 @@
 body {
-    background-color: #7c7676;
-}
+    background-color: #777;
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: '960px';
+    font-size: '18px';
+}   
 
 .wireframe-block {
     background: #ebebeb;
@@ -18,7 +23,7 @@ body {
  }
 
  .three {
-    background: #7c7676;
+    background: #777;
     min-height: 100px;
     width: 100%;
     margin: 10px;
@@ -30,40 +35,47 @@ body {
  .section-block {
     background: #ebebeb;
     min-height: 300px;
-    width: 60%;
+    width: 495px;
     margin: 10px;
     margin-left: 0%;
-    display:flex; 
+    display: flex; 
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .article-block {
-    background: #7c7676;
+    background: #777;
     min-height: 220px;
-    width: 100%;
+    width: 95%;
     margin: 10px;
-    display:flex; 
+    margin-top: 50px;
+    display: block; 
     align-items: center;
     justify-content: center;
+}
+
+.text {
+    color: #ebebeb;
+    text-align: center;
 }
 
 .tag-block {
     background: #ebebeb;
     min-height: 30px;
-    width: 100%;
+    width: 95%;
     margin: 10px;
-    display:flex; 
-    align-items: center;
+    margin-top: 35px;
+    display: flex; 
     justify-content: center;
+    align-items: center;
 }
 
 .aside-block {
     background: #ebebeb;
     min-height: 300px;
-    width: 40%;
     margin: 10px;
+    flex: 1;
     margin-right: 0%;
     display:flex; 
     align-items: center;
